@@ -6,107 +6,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2023</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/our_team.css">
     <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
 
-<header class="header">
-    <div class="container">
-        <!-- Header nav -->
-        <div class="header-nav">
-            <a href="./index.html" class="logo">Консультант+</a>
+    <header class="header">
+        <div class="container">
+            <!-- Header nav -->
+            <div class="header-nav">
+                <a href="./index.html" class="logo">Консультант+</a>
 
-            <nav id="nav" class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="./index.html" class="nav-link">Главная</a></li>
-                    <li class="nav-item"><a href="./about_us.html" class="nav-link">О нас</a></li>
-                    <li class="nav-item"><a href="./our_services.html" class="nav-link">Наши услуги</a></li>
-                    <li class="nav-item"><a href="./our_works.html" class="nav-link">Наши работы</a></li>
-                    <li class="nav-item"><a href="./our_team.html" class="nav-link active">Наша команда</a></li>
-                    <li class="nav-item"><a href="./contacts.html" class="nav-link">Контакты</a></li>
-                </ul>
-                <button id="nav-btn" class="nav-button">
-                    <img id="nav-btn-img" src="./img/icons/nav-open.svg" alt="Nav button">
-                </button>
-            </nav>
-        </div>
-
-        <!-- Header content -->
-        <div class="header-row">
-
-            <div class="header-content">
-                <h1 class="header-heading">Консультант+<br> <span>Юридическая консультация</span></h1>
-                <p>Мы предлагаем широкий спектр юридических услуг, в том числе защиту прав и интересов клиентов в суде, юридическое сопровождение бизнеса, консультации по налоговому и трудовому праву, а также другие виды юридической помощи.</p>
-                <p>Сотрудничество с Адвокат+ - это надежное решение в любой юридической ситуации. Мы готовы предоставить вам лучшие условия и качественный сервис. Обратитесь к нам уже сегодня, и мы поможем вам решить ваши юридические вопросы!</p>
+                <nav id="nav" class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="./index.html" class="nav-link active">Главная</a></li>
+                        <li class="nav-item"><a href="./about_us.html" class="nav-link">О нас</a></li>
+                        <li class="nav-item"><a href="./our_services.html" class="nav-link">Наши услуги</a></li>
+                        <li class="nav-item"><a href="./our_works.html" class="nav-link">Наши работы</a></li>
+                        <li class="nav-item"><a href="./our_team.html" class="nav-link">Наша команда</a></li>
+                        <li class="nav-item"><a href="./contacts.html" class="nav-link">Контакты</a></li>
+                    </ul>
+                    <button id="nav-btn" class="nav-button">
+                        <img id="nav-btn-img" src="./img/icons/nav-open.svg" alt="Nav button">
+                    </button>
+                </nav>
             </div>
 
-            <div class="header-img">
+            <!-- Header content -->
+            <div class="header-row">
+
+                <div class="header-content">
+                    <h1 class="header-heading">Консультант+<br> <span>Юридическая консультация</span></h1>
+                    <p>Мы предлагаем широкий спектр юридических услуг, в том числе защиту прав и интересов клиентов в суде, юридическое сопровождение бизнеса, консультации по налоговому и трудовому праву, а также другие виды юридической помощи.</p>
+                    <p>Сотрудничество с Адвокат+ - это надежное решение в любой юридической ситуации. Мы готовы предоставить вам лучшие условия и качественный сервис. Обратитесь к нам уже сегодня, и мы поможем вам решить ваши юридические вопросы!</p>
+                </div>
+
+                <div class="header-img">
+
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="./img/header/hero-mobile.png">
+                        <img src="./img/header/hero.png" alt="">
+                    </picture>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="team">
+        <div class="container">
+            <div class="cases-title">
+                <h2 class="title-1">Наша команда</h2>
+                <h2 style="font-size: 180%; margin-top: 50px" class="title-1">Штат юристов: <span style="color: blue;"><b>5</b> специалистов</span></h2>
+                <h2 style="font-size: 180%; margin-bottom: 50px" class="title-1">Практики: <span style="color: blue;"><b>>9</b> направлений</span></h2>
+            </div>
+            <div class="team-row">
 
                 <picture>
-                    <source media="(max-width: 799px)" srcset="./img/header/hero-mobile.png">
-                    <img src="./img/header/hero.png" alt="">
+                    <source media="(max-width: 799px)" srcset="./img/team/Sergey.jpg">
+                    <img src="./img/team/Sergey.jpg" alt="" style="object-fit: cover; border-radius: 30px;">
                 </picture>
 
+                <div class="team-card">
+                    <h3 class="team-card-title">Сергей Приступ</h3>
+                    <p style="margin-top: -15px; font-size: 140%;">Юрисконсульт.</p>
+                    <p><b>Образование:</b> Окончил бакалавриат и магистратуру ДВФУ с отличием.</p>
+                    <p><b>Активность:</b> Член Ассоциации Юристов России. Автор научных публикаций в сфере гражданского права.</p>
+                    <p><b>Практика:</b> Более 9 лет занимается представительством клиентов в судах, проводит досудебную работу с должниками или взыскателями, включая переговоры и претензионную работу.</p>
+                </div>
+
+                <picture>
+                    <source media="(max-width: 799px)" srcset="./img/team/Stepan.jpg">
+                    <img src="./img/team/Stepan.jpg" alt="" style="object-fit: cover; border-radius: 30px;">
+                </picture>
+
+                <div class="team-card">
+                    <h3 class="team-card-title">Степан Котельников</h3>
+                    <p style="margin-top: -15px; font-size: 140%;">Налоговый консультант.</p>
+                    <p> <b>Образование:</b> Окончил магистратуру ДВФУ с отличием.</p>
+                    <p><b>Активность:</b> Имеет государственные награды.</p>
+                    <p><b>Практика:</b> Успешно препятствует включению в реестр недобросовестных поставщиков. </p>
+                </div>
+
+                <picture>
+                    <source media="(max-width: 799px)" srcset="./img/team/Liza.jpg">
+                    <img src="./img/team/Liza.jpg" alt="" style="object-fit: cover; border-radius: 30px;">
+                </picture>
+
+                <div class="team-card">
+                    <h3 class="team-card-title">Елизавета Великасова</h3>
+                    <p style="margin-top: -15px; font-size: 140%;">Адвокат.</p>
+                    <p><b>Образование:</b> Окончила бакалавриат и магистратуру МГТУ с отличием.</p>
+                    <p><b>Активность:</b> Защита по уголовным делам; семейные, гражданские, трудовые, жилищные споры и т.п.</p>
+                    <p><b>Практика:</b> Выиграла дело в Верховном Суде, которое попало в обзор судебной практики.</p>
+                </div>
+
+                <picture>
+                    <source media="(max-width: 799px)" srcset="./img/team/Gleb.jpg">
+                    <img src="./img/team/Gleb.jpg" alt="" style="object-fit: cover; border-radius: 30px;">
+                </picture>
+
+                <div class="team-card">
+                    <h3 class="team-card-title">Глеб Ким</h3>
+                    <p style="margin-top: -15px; font-size: 140%;">Юрист - международник.</pstyle="font-size:>
+                    <p><b>Образование:</b> Окончил магистратуру ДВФУ с отличием.</p>
+                    <p><b>Активность:</b> Преподавал студентам юрфака во ВГУЭС. Вел дела одного из крупнейших НПФ в России.</p>
+                    <p><b>Практика:</b> Специализируется на сопровождении и юридической организации бизнес-проектов.</p>
+                </div>
+
+                <picture>
+                    <source media="(max-width: 799px)" srcset="./img/team/Alina.jpg">
+                    <img src="./img/team/Alina.jpg" alt="" style="object-fit: cover; border-radius: 30px;">
+                </picture>
+
+                <div class="team-card">
+                    <h3 class="team-card-title">Алина Очеретная</h3>
+                    <p style="margin-top: -15px; font-size: 140%;">Юрист.</p>
+                    <p><b>Образование:</b> Окончила Школу гуманитарных наук и Юридическую школу ДВФУ с отличием. В 2021 г. прошла курс повышения квалификации "Право интеллектуальной собственности".</p>
+                    <p><b>Активность:</b> Член Ассоциации Юристов России. Алина успешно представляет интересы клиентов как в потребительских, так и в крупных коммерческих спорах, в том числе в Верховном суде РФ.</p>
+                    <p><b>Практика:</b> Работает старшим юристом в крупной Дальневосточной транспортной компании.</p>
+                </div>
+
             </div>
         </div>
-    </div>
-</header>
+    </section>
 
-<section class="services">
-    <div class="container">
-        <div class="services-title">
-            <h2 class="title-1">Наши приемущества</h2>
-        </div>
+    <footer class="contacts">
+        <div class="container">
+            <hr class="black-line">
 
-        <div class="services-row">
-
-            <div class="service-card">
-                <img class="service-card-img" src="./img/services/01.svg" alt="UI/UX Design">
-                <h3 class="service-card-title">Преимущество1</h3>
-                <p>Нужно что-то придумать и поменять картинки. Теи ткотумао клумал умкльмлукь лмкьль ьл ьл! Оьл! ЛД.</p>
+            <div class="contacts-title">
+                <h2 class="title-1">Контакты</h2>
             </div>
-
-            <div class="service-card">
-                <img class="service-card-img" src="./img/services/02.svg" alt="UI/UX Design">
-                <h3 class="service-card-title">Преимущество2</h3>
-                <p>Нужно что-то придумать и поменять картинки. Теи ткотумао клумал умкльмлукь лмкьль ьл ьл! Оьл! ЛД.</p>
+            <div class="contacts-content">
+                <p>Тел: +89841534444<br> email: super@urist.com<br> Мы всегда на связи !</p>
             </div>
-
-            <div class="service-card">
-                <img class="service-card-img" src="./img/services/03.svg" alt="UI/UX Design">
-                <h3 class="service-card-title">Преимущество3</h3>
-                <p>Нужно что-то придумать и поменять картинки. Теи ткотумао клумал умкльмлукь лмкьль ьл ьл! Оьл! ЛД.</p>
+            <div class="contacts-button">
+                <a href="#" class="btn">Отправить сообщение</a>
             </div>
+            <div class="contacts-social">
+                <a href="#"><img src="./img/socials/Gmail.svg" alt="Gmail"></a>
+                <a href="#"><img src="./img/socials/Instargam.svg" alt="Instargam"></a>
+                <a href="#"><img src="./img/socials/VK.svg" alt="VK"></a>
+                <a href="#"><img src="./img/socials/Telegram.svg" alt="Telegram"></a>
+            </div>
+            <div class="contacts-footer">
+                <p>© 1483-2023 Адвокат+</p>
+            </div>
+        </div>
+    </footer>
 
-        </div>
-    </div>
-</section>
-
-<footer class="contacts">
-    <div class="container">
-        <hr class="black-line">
-
-        <div class="contacts-title">
-            <h2 class="title-1">Контакты</h2>
-        </div>
-        <div class="contacts-content">
-            <p>Тел: +89841534444<br> email: super@urist.com<br> Мы всегда на связи !</p>
-        </div>
-        <div class="contacts-button">
-            <a href="#" class="btn">Отправить сообщение</a>
-        </div>
-        <div class="contacts-social">
-            <a href="#"><img src="./img/socials/Gmail.svg" alt="Gmail"></a>
-            <a href="#"><img src="./img/socials/Instargam.svg" alt="Instargam"></a>
-            <a href="#"><img src="./img/socials/VK.svg" alt="VK"></a>
-            <a href="#"><img src="./img/socials/Telegram.svg" alt="Telegram"></a>
-        </div>
-        <div class="contacts-footer">
-            <p>© 1483-2023 Адвокат+</p>
-        </div>
-    </div>
-</footer>
-
-<script src="./js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
