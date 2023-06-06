@@ -23,20 +23,22 @@ body {
     padding: 7px 22px;
     background-color: #070707;
     border-radius: 30px;
+
     font-size: 18px;
     color: #fff;
+
     transition: background-color 0.2s ease-in, top 0.2s ease-in;
 }
 
-    .btn:hover, .btn:focus {
-        background-color: #323232;
-    }
+.btn:hover, .btn:focus {
+    background-color: #323232;
+}
 
-    .btn:active {
-        position: relative;
-        top: 1px;
-        background-color: #000000;
-    }
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #000000;
+}
 
 
 /* Header */
@@ -118,36 +120,42 @@ body {
     line-height: 2;
 }
 
-/* Team */
+/* Service */
 
-.team {
+.cases {
     padding: 90px 0px 45px;
 }
 
-.team-row {
+.cases-row {
     display: flex;
     column-gap: 30px;
     row-gap: 60px;
     flex-wrap: wrap;
 }
 
-.team-card {
-    flex: 1 1 0;
-    min-width: 150px;
+.cases-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
 }
 
-.team-card-img {
-    margin-bottom: 30px;
+.title-row {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px; 
 }
 
-.team-card-title {
-    margin-bottom: 10px;
+.cases-card-img {
+    margin-right: 10px;
+}
+
+.cases-card-title {
     font-weight: 600;
     font-size: 24px;
     text-transform: uppercase;
 }
 
-.team-card p {
+.cases-card p {
     line-height: 2;
 }
 
@@ -173,9 +181,9 @@ body {
     font-size: 18px;
 }
 
-    .contacts-content p + p {
-        margin-top: 1em;
-    }
+.contacts-content p + p {
+    margin-top: 1em;
+}
 
 .contacts-button {
     margin-bottom: 80px;
@@ -189,10 +197,10 @@ body {
     margin-bottom: 40px;
 }
 
-    .contacts-social a img {
-        width: 45px;
-        height: 45px;
-    }
+.contacts-social a img {
+    width: 45px;
+    height: 45px;
+}
 
 .contacts-footer {
     color: #828282;
@@ -205,3 +213,4 @@ body {
     width: 75%;
     margin: 30px auto;
 }
+
