@@ -124,42 +124,40 @@ body {
 
 /* Service */
 
-.general {
+.services {
     padding: 90px 0px 45px;
 }
 
-.general-row {
+.services-row {
     display: flex;
     column-gap: 30px;
     row-gap: 60px;
     flex-wrap: wrap;
 }
 
-.general-card {
+.service-card {
     flex: 1 1 0;
     min-width: 315px;
 }
 
-.general-card p {
-    font-size: 16px;
+.service-card p {
+    font-size: 15px;
+    padding-right: 30px;
 }
 
-.general-card-img {
+.service-card-img {
     margin-bottom: 30px;
+
 }
 
-.reviews-title {
-    margin-top: 100px;
-}
-
-.general-card-title {
+.service-card-title {
     margin-bottom: 10px;
     font-weight: 600;
     font-size: 24px;
     text-transform: uppercase;
 }
 
-.general-card p {
+.service-card p {
     line-height: 2;
 }
 
@@ -175,7 +173,7 @@ body {
     margin-bottom: 30px;
 }
 
-.general-title {
+.services-title {
     margin-bottom: 40px;
 }
 
@@ -218,26 +216,3 @@ body {
     margin: 30px auto;
 }
 
-.reviews-row {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.review-card-rating {
-    margin-bottom: 20px;
-}
-
-.review-card-name {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.review-card-rating {
-    font-size: 20px;
-}
-
-.review-card-text {
-    padding-right: 50px;
-    font-size: 16px;
-}
